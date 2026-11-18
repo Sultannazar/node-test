@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
   res.send('<h1>Мой Express сервер!</h1><p>Открой /api/hello</p>');
 });
 
-app.get('/api/hello', (req, res) => {
+app.get'/api/hello', (req, res) => {
   res.json({ message: 'Привет от API!', time: new Date() });
 });
 
